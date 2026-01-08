@@ -84,3 +84,24 @@ footer {
   object-fit: contain;
   background: black;
 }
+.hover-swiper {
+  width: 100%;
+  height: 70vh; /* BẮT BUỘC */
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* nhìn đủ ảnh */
+}
